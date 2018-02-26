@@ -30,7 +30,15 @@ class ArticlesController extends AppController
     */
 
     public function beforeRender (\Cake\Event\Event $event) {
+      // NOTE choose a theme
+
       $this->viewBuilder()->theme('Paper');
+
+      // $this->viewBuilder()->theme('AdminLTE');
+
+      // NOTE choose a theme
+
+
     }
 
     /**

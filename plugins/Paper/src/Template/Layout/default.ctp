@@ -58,7 +58,7 @@ $cakeDescription = '.:: XMF Cristina ::.';
     <?= $this->Html->script('bootstrap.min'); ?>
     <?= $this->Html->script('bootstrap-checkbox-radio'); ?>
     <?= $this->Html->script('bootstrap-notify'); ?>
-    <?= $this->Html->script('charthis.min'); ?>
+    <?= $this->Html->script('chartist.min'); ?>
     <?= $this->Html->script('paper-dashboard'); ?>
     <?= $this->Html->script('demo'); ?>
 

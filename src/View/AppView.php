@@ -34,8 +34,10 @@ class AppView extends View
      *
      * @return void
      */
-    public function initialize()
-    {
-      // $this->viewBuild()->theme('CustomTheme');
+    public function initialize() {
+      $this->loadHelper('Form', ['className' => 'AdminLTE.Form']);
+
+      // EXAMPLE Always enable the MyUtils Helper
+      // $this->loadHelper('MyUtils');
     }
 }
