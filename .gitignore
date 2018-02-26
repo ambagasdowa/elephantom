@@ -2,9 +2,8 @@
 ##########################
 /config/app.php
 /config/.env
-logs/*
-tmp/*
-/vendor/*
+/logs/*
+/tmp/*
 tmp/debug_kit.sqlite
 
 
