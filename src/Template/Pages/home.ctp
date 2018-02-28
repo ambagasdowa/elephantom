@@ -53,6 +53,14 @@ $cakeDescription = 'CakePHP: the rapid development PHP framework';
     </div>
 </header>
 
+<div class="xmf">
+  http://pool/cakephp/elephantom/pages/reports/Monitor
+  <ul>
+    <li><?= $this->Html->link(__('XMF'), ['controller' => 'Pages', 'action' => 'reports/Monitor']) ?></li>
+  </ul>
+
+  </div>
+
 <div class="row">
     <div class="columns large-12">
         <div class="ctp-warning alert text-center">
