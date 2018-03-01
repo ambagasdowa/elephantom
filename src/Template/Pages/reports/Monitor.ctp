@@ -1,3 +1,7 @@
+  <!-- Set the notification -->
+<?= $this->Html->script('xmf/notifications/notify.js', ['block' => true]); ?>
+
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-4 col-sm-12">
@@ -84,7 +88,6 @@
         </div>
 
     </div>
-    <hr>
 
 
     <div class="row">
@@ -372,24 +375,8 @@
             </div>
     </div>
 
-
-</div>
   <div class="text-center">
       <button type="submit" class="btn btn-info btn-fill btn-wd">Exportar XLS</button>
   </div>
-</div>
 
-<script type="text/javascript">
-
-    $(document).ready(function(){
-      $.notify({
-          icon: 'ti-package',
-          message: "<b>XMF Cristina</b> - Proceso Electoral Local."
-
-        },{
-            type: 'warning',
-            timer: 2000
-        });
-    });
-
-</script>
+</div>   <!-- container-fluid -->

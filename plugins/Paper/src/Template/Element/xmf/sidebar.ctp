@@ -54,9 +54,16 @@ Tip 2: you can change the color of the active button using the data-active-color
             </li>
 
             <li>
-                <a href="<?php echo $this->Url->build('/pages/reports/QuintoReporte'); ?>">
+                <a href="<?php echo $this->Url->build('/pages/reports/Quinto Reporte'); ?>">
                     <i class="ti-pulse"></i>
                     <p>REPORTE INCIDENCIAS</p>
+                </a>
+            </li>
+
+            <li>
+                <a href="<?php echo $this->Url->build('/pages/reports/NovenoReporte'); ?>">
+                    <i class="ti-pulse"></i>
+                    <p>RESUMEN</p>
                 </a>
             </li>
 

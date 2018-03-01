@@ -434,6 +434,4 @@
         <button type="submit" class="btn btn-info btn-fill btn-wd">Exportar XLS</button>
     </div>
 
-
-</div>
-</div><!-- content-->
+</div>   <!-- container-fluid -->

@@ -281,10 +281,10 @@
             </div>
         </div>
     </div>
-</div>
+
 
 <div class="text-center">
     <button type="submit" class="btn btn-info btn-fill btn-wd">Exportar XLS</button>
 </div>
 
-</div> <!-- content -->
+</div>   <!-- container-fluid -->
