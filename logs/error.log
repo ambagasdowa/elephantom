@@ -16397,3 +16397,41 @@ Stack Trace:
 #15 {main}
 
 
+2018-03-01 18:25:56 Error: Fatal Error (1): Call to undefined function e() in [/var/www/pool/public_html/cakephp/elephantom/plugins/Paper/src/Template/Pages/home.ctp, line 2]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-03-01 18:25:56 Error: [Cake\Error\FatalErrorException] Call to undefined function e() in /var/www/pool/public_html/cakephp/elephantom/plugins/Paper/src/Template/Pages/home.ctp on line 2
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/pool/public_html/cakephp/elephantom/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/var/www/pool/p...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2018-03-01 18:25:59 Error: Fatal Error (1): Call to undefined function e() in [/var/www/pool/public_html/cakephp/elephantom/plugins/Paper/src/Template/Pages/home.ctp, line 2]
+Request URL: /
+Client IP: 127.0.0.1
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2018-03-01 18:25:59 Error: [Cake\Error\FatalErrorException] Call to undefined function e() in /var/www/pool/public_html/cakephp/elephantom/plugins/Paper/src/Template/Pages/home.ctp on line 2
+Request URL: /
+Client IP: 127.0.0.1
+Stack Trace:
+#0 /var/www/pool/public_html/cakephp/elephantom/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/var/www/pool/p...', 2)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
